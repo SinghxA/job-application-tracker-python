@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
-# SECRET_KEY = "django-tracker-#-i4bxkh6(k9rm7(c@n=h#hc4(ji@e5g&uj1lz3k^5=&@ld&#"
+
 SECRET_KEY = os.environ.get("SECRET_KEY")
 # Django, secret key mere code mein nahi hai. Environment se lekar aao.
 # SECURITY WARNING: don't run with debug turned on in production!
